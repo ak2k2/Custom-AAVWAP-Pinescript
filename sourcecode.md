@@ -1,4 +1,4 @@
-'''pinescript
+```pinescript
 // This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
 // © ak2k2
 
@@ -42,4 +42,4 @@ fl = f_avwap(src,atl_dt, color.green)
 fhv = f_avwap(src,athv_dt, color.aqua)
 
 
-'''
+```
