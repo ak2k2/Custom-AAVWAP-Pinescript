@@ -6,10 +6,7 @@ Release Notes: AVWAPS calculates on data matching chart timeframe using 'timefra
 #Indicator Link (Tradingview)
 [TF-Selective-AAVWAP](https://www.tradingview.com/script/iDFvwKve-TF-Selective-AAVWAP/)
 
-
-
-
-
+## Historical Versions
 # Custom-AAVWAP-Pinescript (V1)
 Automated VWAP Indicator written in PineScript for TradingView charts. Anchored at key swing H/L levels extracted from price and volume time-series.
 
