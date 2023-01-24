@@ -1,4 +1,4 @@
-#TF-Selective-AAVWAP
+# TF-Selective-AAVWAP (Most Recent Version)
 ## Automated H, L and HV anchors. Displays the date of occurrence of swing H/L on daily timeframe
 
 Release Notes: AVWAPS calculates on data matching chart timeframe using 'timeframe.period' . Consistencies with bar merge and lookahead resolved. labels fixed. datetime of LL and LH are reported on correct tf.
