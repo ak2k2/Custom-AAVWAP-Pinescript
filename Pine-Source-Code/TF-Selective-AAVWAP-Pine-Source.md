@@ -1,4 +1,4 @@
-`java
+`
 //@version=5
 indicator('Armaan-Harpal-Custom-AAVWAP', overlay=true, max_bars_back=5000)
 //@ak2k2, Credit to @AJ7919 for Open Source Contribution
