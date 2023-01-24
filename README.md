@@ -4,7 +4,7 @@
 Release Notes: 
 1. AVWAPS calculates on data matching chart timeframe using 'timeframe.period'. 
 2. Consistencies with bar merge and lookahead resolved. Labels fixed. Datetime of LL and LH are reported on the correct timeframe. 
-3. 3. Automated H, L and HV anchors. Displays the date of occurrence of swing H/L on daily timeframe.
+3. Automated H, L and HV anchors. Displays the date of occurrence of swing H/L on daily timeframe.
 
 
 # Historical Versions
