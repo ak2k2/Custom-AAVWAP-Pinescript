@@ -1,4 +1,3 @@
-```pinescript
 // This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
 // © ak2k2
 
@@ -40,6 +39,3 @@ athv_dt = bar_index-bar_index[hvOffset]
 fh=f_avwap(src, ath_dt, color.red)
 fl = f_avwap(src,atl_dt, color.green)
 fhv = f_avwap(src,athv_dt, color.aqua)
-
-
-```
