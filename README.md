@@ -1,12 +1,12 @@
 # TF-Selective-AAVWAP (Most Recent Version)
-## Automated H, L and HV anchors. Displays the date of occurrence of swing H/L on daily timeframe
+## TradingView Indicator Link - [TF-Selective-AAVWAP](https://www.tradingview.com/script/iDFvwKve-TF-Selective-AAVWAP/)
 
-Release Notes: AVWAPS calculates on data matching chart timeframe using 'timeframe.period' . Consistencies with bar merge and lookahead resolved. labels fixed. datetime of LL and LH are reported on correct tf.
+Release Notes: 1. AVWAPS calculates on data matching chart timeframe using 'timeframe.period' . Consistencies with bar merge and lookahead resolved. labels fixed. datetime of LL and LH are reported on correct tf, 2. Automated H, L and HV anchors. Displays the date of occurrence of swing H/L on daily timeframe
 
-TradingView Indicator Link - [TF-Selective-AAVWAP](https://www.tradingview.com/script/iDFvwKve-TF-Selective-AAVWAP/)
 
 # Historical Versions
-## Custom-AAVWAP-Pinescript (V1)
+## Custom-AAVWAP-Pinescript (V1) - [TradingView Indicator Link](https://www.tradingview.com/script/WQlZvYUJ-Custom-AVWAP-Harpal-s-Anchors/)
+
 Automated VWAP Indicator written in PineScript for TradingView charts. Anchored at key swing H/L levels extracted from price and volume time-series.
 
 - Ensure that '//@version=5' is specified ontop of the indicator("...") call.
