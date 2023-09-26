@@ -7,6 +7,21 @@
 
 TF-Selective-AAVWAP (V2) generates three distinct VWAP time series, anchored at swing-low, swing-high, and swing-high-volume candle indices within a given lookback period. 
 
+It considers three distinct anchoring points: swing-low, swing-high, and swing-high-volume candle indices. 1. **Swing-low** (`SL`): The index 
+ such that 
+ is the minimum price within a given lookback period ending at index 
+. That is:
+where `argmin` returns the index at which 
+ is minimized. 2. **Swing-high** (`SH`): The index 
+ such that 
+ is the maximum price within a given lookback period ending at index 
+. That is:
+where `argmax` returns the index at which 
+ is maximized. 3. **Swing-high-volume** (`SHV`): The index 
+ such that 
+ is the maximum volume within a given lookback period ending at index 
+. This point represents the candle with the highest traded volume:
+For each of these indices, you can compute a VWAP anchored at that specific index. The VWAP formula remains the same as before, but you start the summation from the swing index rather than from the beginning: \[ VWAP_{SL}(i) = \frac{\sum_{j=SL(i)}^{i} P(j) \times V(j)}{\sum_{$
 
 ## TradingView Release (V2) - [TF-Selective-AAVWAP](https://www.tradingview.com/script/iDFvwKve-TF-Selective-AAVWAP/)
 
