@@ -5,10 +5,10 @@
 ---
 The VWAP at an "anchor" at index \( i \) is calculated as:
 
-$\[ VWAP(i) = \frac{\sum_{j=1}^{i} P(j) \times V(j)}{\sum_{j=1}^{i} V(j)} \]
+$$\[ VWAP(i) = \frac{\sum_{j=1}^{i} P(j) \times V(j)}{\sum_{j=1}^{i} V(j)} \]
 
 Where:
-- $\( P(j) \) is the price of the security at time index \( j \).
+- $$\( P(j) \) is the price of the security at time index \( j \).
 - $$\( V(j) \) is the volume of the security at time index \( j \).
 
 ---
