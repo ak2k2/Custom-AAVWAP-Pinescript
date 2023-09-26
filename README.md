@@ -1,13 +1,30 @@
-# TF-Selective-AAVWAP (Armaan Kapoor)
-## TradingView Hyperlink - [TF-Selective-AAVWAP](https://www.tradingview.com/script/iDFvwKve-TF-Selective-AAVWAP/)
+# TF-Selective-AAVWAP (V2)
+## Author: Armaan Kapoor
+## Written in PineScript for TradingView charts
+
+---
+The VWAP at an "anchor" at index \( i \) is calculated as:
+
+\[ VWAP(i) = \frac{\sum_{j=1}^{i} P(j) \times V(j)}{\sum_{j=1}^{i} V(j)} \]
+
+Where:
+- \( P(j) \) is the price of the security at time index \( j \).
+- \( V(j) \) is the volume of the security at time index \( j \).
+
+---
+
+TF-Selective-AAVWAP (V2) generates three distinct VWAP time-series, anchored at swing low, swing high, and swing high volume indices in a given range. 
+
+
+## TradingView Release (V2) - [TF-Selective-AAVWAP](https://www.tradingview.com/script/iDFvwKve-TF-Selective-AAVWAP/)
 
 Release Notes: 
 1. AVWAPS calculates on data matching chart timeframe using 'timeframe.period'. 
-2. Consistencies with bar merge and lookahead resolved. Labels fixed. Datetime of LL and LH are reported on the correct timeframe. 
+2. Consistent use of bar merge and lookahead. Labels fixed. Datetime of LL and LH are reported on the correct timeframe. 
 3. Automated H, L and HV anchors. Displays the date of occurrence of swing H/L on daily timeframe.
 
 
-# Historical Versions
+# OLD Release (V1)
 ## TradingView Hyperlink - [Custom_AVWAP_Harpal's-Anchors](https://www.tradingview.com/script/WQlZvYUJ-Custom-AVWAP-Harpal-s-Anchors/)
 
 Automated VWAP Indicator written in PineScript for TradingView charts. Anchored at key swing H/L levels extracted from price and volume time-series.
