@@ -5,16 +5,14 @@
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
----
 The VWAP at an "anchor" at index \( i \) is calculated as:
 
-$$\[ VWAP(i) = \frac{\sum_{j=1}^{i} P(j) \times V(j)}{\sum_{j=1}^{i} V(j)} \]
+$\[ VWAP(i) = \frac{\sum_{j=1}^{i} P(j) \times V(j)}{\sum_{j=1}^{i} V(j)} \]
 
 Where:
-- $$\( P(j) \) is the price of the security at time index \( j \).
-- $$\( V(j) \) is the volume of the security at time index \( j \).
+- $\( P(j) \) is the price of the security at time index \( j \).
+- $\( V(j) \) is the volume of the security at time index \( j \).
 
----
 
 TF-Selective-AAVWAP (V2) generates three distinct VWAP time-series, anchored at swing low, swing high, and swing high volume indices in a given range. 
 
