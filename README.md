@@ -1,4 +1,4 @@
-# TF-Selective-AAVWAP (Most Recent Version)
+# TF-Selective-AAVWAP (Armaan Kapoor)
 ## TradingView Hyperlink - [TF-Selective-AAVWAP](https://www.tradingview.com/script/iDFvwKve-TF-Selective-AAVWAP/)
 
 Release Notes: 
