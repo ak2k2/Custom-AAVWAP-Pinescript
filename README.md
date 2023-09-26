@@ -2,16 +2,7 @@
 ## Author: Armaan Kapoor
 ## Written in PineScript for TradingView charts
 
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}
-
-The VWAP at an "anchor" at index \( i \) is calculated as:
-
-$\[ VWAP(i) = \frac{\sum_{j=1}^{i} P(j) \times V(j)}{\sum_{j=1}^{i} V(j)} \]
-
-Where:
-- $\( P(j) \) is the price of the security at time index \( j \).
-- $\( V(j) \) is the volume of the security at time index \( j \).
+![vwap-ak](https://github.com/ak2k2/Custom-AAVWAP-Pinescript/assets/103453421/d248c283-0d88-44ca-b2c8-2f95a9387c27)
 
 
 TF-Selective-AAVWAP (V2) generates three distinct VWAP time-series, anchored at swing low, swing high, and swing high volume indices in a given range. 
