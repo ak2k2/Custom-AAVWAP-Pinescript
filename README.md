@@ -10,26 +10,8 @@ TF-Selective-AAVWAP (V2) generates three distinct VWAP time series, anchored at 
 
 The **TF-Selective-AAVWAP (V2)** method provides an enhanced VWAP approach, generating three distinct VWAP time series based on different anchoring points within a given lookback period: swing-low, swing-high, and swing-high-volume candle indices.
 
+![sxpng](https://github.com/ak2k2/Custom-AAVWAP-Pinescript/assets/103453421/b77d961c-4577-4812-89d3-9f639dab309e)
 
-1. **Swing-low (`SL`)**: For a given index \( i \), the swing-low is defined as the index \( k \) where \( P(k) \) represents the minimum price within the lookback period:
-\[ SL(i) = \text{argmin}_{k \leq i} P(k) \]
-Here, `argmin` returns the index at which \( P(k) \) is minimized.
-
-2. **Swing-high (`SH`)**: For a given index \( i \), the swing-high is defined as the index \( l \) where \( P(l) \) represents the maximum price within the lookback period:
-\[ SH(i) = \text{argmax}_{l \leq i} P(l) \]
-Here, `argmax` returns the index at which \( P(l) \) is maximized.
-
-3. **Swing-high-volume (`SHV`)**: For a given index \( i \), this represents the index \( m \) where \( V(m) \) is the maximum volume within the lookback period:
-\[ SHV(i) = \text{argmax}_{m \leq i} V(m) \]
-
-## VWAP Formulas
-
-For each of the above-defined indices, the VWAP is calculated starting from the specific swing index:
-
-- **VWAP anchored at Swing-low**:
-\[ VWAP_{SL}(i) = \frac{\sum_{j=SL(i)}^{i} P(j) \times V(j)}{\sum_{j=SL(i)}^{i} V(j)} \]
-
-etc.
 
 ## TradingView Release (V2) - [TF-Selective-AAVWAP](https://www.tradingview.com/script/iDFvwKve-TF-Selective-AAVWAP/)
 
